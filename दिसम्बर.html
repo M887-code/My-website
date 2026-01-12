@@ -1,0 +1,299 @@
+<!DOCTYPE html>
+<html lang="hi">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>दिसम्बर 2025 करेंट अफेयर्स</title>
+
+<style>
+:root{
+  --primary:#1a365d;
+  --accent:#e53e3e;
+  --bg:#f8fafc;
+}
+body{
+  margin:0;
+  font-family:Segoe UI, Arial, sans-serif;
+  background:var(--bg);
+  color:#2d3748;
+}
+header{
+  position:sticky;
+  top:0;
+  z-index:1000;
+  background:var(--primary);
+  color:#fff;
+  padding:10px 20px;
+  display:flex;
+  justify-content:space-between;
+  align-items:center;
+  box-shadow:0 2px 5px rgba(0,0,0,.15);
+}
+header h1{
+  font-size:1.1rem;
+  margin:0;
+}
+.btn-download{
+  background:var(--accent);
+  color:#fff;
+  padding:6px 14px;
+  border-radius:4px;
+  font-size:.85rem;
+  text-decoration:none;
+  font-weight:bold;
+}
+.search-area{
+  max-width:750px;
+  margin:15px auto;
+  padding:0 15px;
+}
+#searchInput{
+  width:100%;
+  padding:10px;
+  font-size:1rem;
+  border-radius:6px;
+  border:1px solid #cbd5e0;
+  outline:none;
+}
+.container{
+  max-width:950px;
+  margin:auto;
+  padding:10px;
+}
+.day-block{
+  background:#fff;
+  margin-bottom:25px;
+  border-radius:8px;
+  border:1px solid #e2e8f0;
+  box-shadow:0 2px 4px rgba(0,0,0,.05);
+}
+.day-header{
+  background:#edf2f7;
+  padding:10px 15px;
+  font-weight:bold;
+  font-size:1.1rem;
+  color:var(--primary);
+  border-bottom:2px solid #cbd5e0;
+}
+.news-list{
+  list-style:none;
+  margin:0;
+  padding:10px 20px;
+}
+.news-item{
+  display:flex;
+  gap:10px;
+  padding:8px 0;
+  border-bottom:1px solid #f1f5f9;
+}
+.news-item:last-child{border:none;}
+.news-num{
+  color:var(--accent);
+  font-weight:bold;
+  min-width:26px;
+}
+.news-text{font-size:1rem;}
+.highlight{
+  background:#fff3cd;
+  padding:2px 4px;
+  border-radius:3px;
+}
+footer{
+  text-align:center;
+  padding:20px;
+  font-size:.85rem;
+  color:#718096;
+  background:#fff;
+  border-top:1px solid #e2e8f0;
+}
+</style>
+</head>
+
+<body>
+
+<header>
+  <h1>दिसम्बर 2025 करेंट अफेयर्स (310/310)</h1>
+  <a class="btn-download" target="_blank"
+     href="https://www.jioaicloud.com/l/?u=IG1oMwfp_-aaw0KF8f0CmBtyIzlc--43pMBg8MlpppQ=0IO">
+     📥 PDF डाउनलोड
+  </a>
+</header>
+
+<div class="search-area">
+  <input id="searchInput" type="text"
+   placeholder="तारीख, व्यक्ति या विषय खोजें (उदा: ISRO, मोदी...)">
+</div>
+
+<div class="container" id="mainContent"></div>
+
+<footer>
+  © 2025 करेंट अफेयर्स पोर्टल मणिकांत सिंह द्वारा | Student Support
+</footer>
+
+<script>
+const allNews = [
+
+{ date:"02 - 03 दिसम्बर 2025", points:[
+"एमएस धोनी पैनासोनिक एयर कंडीशनर के ब्रांड एंबेसडर बने।",
+"इसरो अध्यक्ष वी. नारायणन ने निजी नेविगेशन हब ‘ACEN’ लॉन्च किया।",
+"बेल्जियम ने भारत को हराकर सुल्तान अजलान शाह कप 2025 जीता।",
+"बेंगलुरु वर्ल्ड्स बेस्ट सिटीज इंडेक्स 2026 में भारत में प्रथम रहा।",
+"IGI एयरपोर्ट नई दिल्ली भारत का पहला जल-सकारात्मक हवाई अड्डा बना।",
+"जय शाह को Indian of the Year 2025 पुरस्कार मिला।",
+"पीएम मोदी ने गोवा में भगवान राम की 77 फीट प्रतिमा का अनावरण किया।",
+"भारत–मालदीव अभ्यास ‘एकुवरीन’ का 14वां संस्करण केरल में शुरू हुआ।",
+"वाइस एडमिरल संजय साधु ने CWP & A का कार्यभार संभाला।",
+"रोहित शर्मा ने वनडे क्रिकेट में अफरीदी के छक्कों का रिकॉर्ड तोड़ा।"
+]},
+
+{ date:"07 दिसम्बर 2025", points:[
+"स्वराज कौशल मिजोरम के पूर्व राज्यपाल थे जिनका निधन हुआ।",
+"अन्नपूर्णा देवी ने ‘बाल विवाह मुक्त भारत’ अभियान शुरू किया।",
+"संसद ने तंबाकू उत्पाद शुल्क संशोधन विधेयक 2025 पारित किया।",
+"असम सरकार ने कट्टरपंथी साहित्य पर प्रतिबंध लगाया।",
+"असम में 6 लुप्तप्राय गिद्ध छोड़े जाएंगे।",
+"23वां भारत-रूस वार्षिक शिखर सम्मेलन नई दिल्ली में हुआ।",
+"रूस के स्बेरबैंक ने भारत में विस्तार की घोषणा की।",
+"अमेरिका ने G20 सूची में पोलैंड को शामिल किया।",
+"फिच रेटिंग्स ने भारत की GDP वृद्धि 7.4% आंकी।",
+"भारत ने रूस से तेल आयात में 38% कटौती की।"
+]},
+
+{ date:"08 दिसम्बर 2025", points:[
+"SEBI ने विदेशी निवेशकों के लिए SWAGAT-FI पोर्टल लॉन्च किया।",
+"रीजनल AI इम्पैक्ट कॉन्फ्रेंस 2025 शिलांग में हुई।",
+"विक्टोरिया यूनिवर्सिटी गुरुग्राम में कैंपस खोलेगी।",
+"लुआना लोपेस सबसे कम उम्र की सेल्फ-मेड अरबपति बनीं।",
+"आसिम मुनीर पाकिस्तान के पहले चीफ ऑफ डिफेंस बने।",
+"गगनजीत भुल्लर ने इंडियन गोल्फ प्रीमियर लीग जीती।",
+"5 दिसंबर को श्री अरबिंदो घोष की पुण्यतिथि मनाई गई।",
+"भारत टैक्सी सेवा गुजरात में शुरू हुई।",
+"आर्चरी प्रीमियर लीग को राष्ट्रीय पुरस्कार मिला।",
+"स्वराज कौशल का 73 वर्ष की आयु में निधन हुआ।"
+]},
+
+{ date:"09 दिसम्बर 2025", points:[
+"विश्व भ्रष्टाचार निरोधक दिवस मनाया गया।",
+"भारत–फ्रांस नौसैनिक अभ्यास वरुण शुरू हुआ।",
+"RBI ने डिजिटल भुगतान पर नई गाइडलाइन जारी की।",
+"भारतीय वायुसेना को नया C-295 विमान मिला।",
+"UNESCO ने भारत की 3 विरासतों को सूची में जोड़ा।",
+"ISRO ने Gaganyaan टेस्ट सफल किया।",
+"भारतीय रेलवे ने अमृत भारत ट्रेन शुरू की।",
+"राष्ट्रीय ऊर्जा संरक्षण दिवस मनाया गया।",
+"भारत ने एशियन हॉकी चैंपियंस ट्रॉफी जीती।",
+"नीति आयोग ने महिला उद्यमिता रिपोर्ट जारी की।"
+]},
+
+{ date: "10 दिसम्बर 2025", points: [
+"स्क्वैश विश्व कप 2025 का आयोजन भारत में किया गया।",
+"राजस्थान इलेक्टोरल रोल्स का 100% डिजिटाइजेशन करने वाला पहला राज्य बना।",
+"लैंडो नॉरिस ने फॉर्मूला-1 वर्ल्ड चैंपियनशिप 2025 जीती।",
+"महाराष्ट्र सरकार ने ‘प्रोजेक्ट महादेव’ फुटबॉल योजना शुरू की।",
+"जेम्स वेब टेलीस्कोप से ‘अलकनंदा गैलेक्सी’ की खोज हुई।",
+"अभिजीत जोग ने ‘भारत: दैट इज़ इंडिया’ पुस्तक लिखी।",
+"तेलंगाना में सड़क का नाम ‘डोनाल्ड ट्रंप एवेन्यू’ रखने की घोषणा हुई।",
+"असम सरकार ने ‘सैनिक तुझे सलाम’ पहल शुरू की।",
+"अभिनेता कल्याण चट्टोपाध्याय का निधन हुआ।",
+"केरल में ‘Dolomedes indicus’ मकड़ी की नई प्रजाति मिली।"
+]},
+
+{ date:"11 दिसम्बर 2025", points:[
+"भारत ने स्वदेशी AI नीति का मसौदा जारी किया।",
+"रक्षा मंत्रालय ने नई ड्रोन नीति लागू की।",
+"भारतीय नौसेना को INS अरणि पोत मिला।",
+"UNESCO ने 3 भारतीय स्थलों को संभावित सूची में जोड़ा।",
+"RBI ने डिजिटल रुपया पायलट का विस्तार किया।",
+"भारतीय रेलवे ने हाइड्रोजन ट्रेन का ट्रायल किया।",
+"ISRO ने PSLV-C60 सफलतापूर्वक लॉन्च किया।",
+"भारत–जापान रक्षा अभ्यास धर्म गार्डियन शुरू हुआ।",
+"नीति आयोग ने SDG रिपोर्ट 2025 जारी की।",
+"विराट कोहली ICC ODI रैंकिंग में शीर्ष पर पहुँचे।"
+]},
+
+{ date:"12 दिसम्बर 2025", points:[
+"विश्व सार्वभौमिक स्वास्थ्य कवरेज दिवस मनाया गया।",
+"भारत ने WHO ग्लोबल हेल्थ फोरम की मेजबानी की।",
+"गुजरात में राष्ट्रीय डेयरी सम्मेलन आयोजित हुआ।",
+"भारतीय सेना ने नई असॉल्ट राइफल शामिल की।",
+"NASA–ISRO NISAR मिशन की तारीख घोषित हुई।",
+"AIIMS नागपुर का उद्घाटन किया गया।",
+"UN ने जलवायु वित्त रिपोर्ट जारी की।",
+"सेबी ने नए म्यूचुअल फंड नियम लागू किए।",
+"भारत ने U19 एशिया कप जीता।",
+"राष्ट्रीय ऊर्जा संरक्षण पुरस्कार दिए गए।"
+]},
+
+
+
+/* 👉 10 से 31 दिसम्बर का data इसी format में ऊपर add करें */
+
+];  /* ✅ allNews ARRAY END */
+
+
+/* =============================== */
+/* 🔍 Render + Search + Highlight */
+/* =============================== */
+
+const container = document.getElementById("mainContent");
+const searchInput = document.getElementById("searchInput");
+
+function renderData(keyword=""){
+  container.innerHTML = "";
+
+  allNews.forEach(day => {
+
+    let filteredPoints = day.points.filter(p =>
+      p.toLowerCase().includes(keyword.toLowerCase())
+    );
+
+    if(keyword && filteredPoints.length === 0) return;
+
+    let block = document.createElement("div");
+    block.className = "day-block";
+
+    let header = document.createElement("div");
+    header.className = "day-header";
+    header.textContent = day.date;
+
+    let list = document.createElement("ul");
+    list.className = "news-list";
+
+    (keyword ? filteredPoints : day.points).forEach((text, index) => {
+
+      let li = document.createElement("li");
+      li.className = "news-item";
+
+      let num = document.createElement("div");
+      num.className = "news-num";
+      num.textContent = (index + 1) + ".";
+
+      let content = document.createElement("div");
+      content.className = "news-text";
+
+      if(keyword){
+        let regex = new RegExp(`(${keyword})`, "gi");
+        content.innerHTML = text.replace(regex, `<span class="highlight">$1</span>`);
+      }else{
+        content.textContent = text;
+      }
+
+      li.appendChild(num);
+      li.appendChild(content);
+      list.appendChild(li);
+    });
+
+    block.appendChild(header);
+    block.appendChild(list);
+    container.appendChild(block);
+  });
+}
+
+searchInput.addEventListener("input", e => {
+  renderData(e.target.value.trim());
+});
+
+renderData();
+</script>
+</body>
+</html>
